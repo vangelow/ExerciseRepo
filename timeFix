@@ -1,0 +1,7 @@
+<php?
+function timeCorrect($timestring) {
+   $format = 'H:i:s';
+   if (empty($timestring)) return $timestring;
+   if ($timestring === null || !($date = date_create_from_format($format, $timestring))) return null;
+   return date_format($date, $format);
+}
