@@ -1,14 +1,11 @@
 <?php
-
-for ($i=0; $i <5 ; $i++) { 
-	echo '1';
-	for ($j=0; $j < 5 ; $j++) { 
-		
-
-		if($j==0){
-			break;
-		}
-		echo '2';
-		
-	}
+function howManyLightsabersDoYouOwn($name) {
+   if($name =='Zach')
+   {
+   return 18;
+   }
+   else {
+   return 0;
+   }
 }
+echo howManyLightsabersDoYouOwn('Zach');

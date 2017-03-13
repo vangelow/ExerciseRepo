@@ -64,3 +64,5 @@ class Person{
 		}
 
 }
+
+$newPerson = new Person('Viktor', 'Angelov', 'Software Dev');

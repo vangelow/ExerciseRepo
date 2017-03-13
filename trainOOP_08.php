@@ -86,3 +86,8 @@ class Person implements CanGreet,CanIntroduce{
 		return "Hello, my name is $this->name, I am $this->age years old and I am currently working as a(n) $this->occupation";
 	}
 }
+
+$newPerson = new Person('Viktor', 'Angelov', 24);
+
+echo $newPerson->introduce() . PHP_EOL;
+echo $newPerson->speak();
