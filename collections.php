@@ -7,12 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="">
-  <link rel="canonical" href="https://testtingstore.myshopify.com/collections/all">
+  <link rel="canonical" href="https://testtingstore.myshopify.com/collections">
 
   
 
   <title>
-  Products &ndash; TesttingStore
+  Collections &ndash; TesttingStore
   </title>
 
   
@@ -21,10 +21,10 @@
 
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Products">
+  <meta property="og:title" content="Collections">
 
 
-  <meta property="og:url" content="https://testtingstore.myshopify.com/collections/all">
+  <meta property="og:url" content="https://testtingstore.myshopify.com/collections">
 
 <meta property="og:site_name" content="TesttingStore">
 
@@ -50,7 +50,7 @@
     
   
 
-  <link href="/collections/all.atom" title="Feed" rel="alternate" type="application/atom+xml" />
+  <link rel="stylesheet" href="//cdn.shopify.com/s/global/list_collections.css?40d1d81a6d329503f6c6a2e4be429fa2f10f0ee2" type="text/css" />
 <script type="text/javascript">
 //<![CDATA[
       var Shopify = Shopify || {};
@@ -62,7 +62,7 @@
 //]]>
 </script><script id="__st">
 //<![CDATA[
-var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2aea","pageurl":"testtingstore.myshopify.com\/collections\/all","u":"27a6c227f066","p":"collection"};
+var __st={"a":18343965,"offset":7200,"reqid":"3b7fbb02-baf3-4502-b0ec-9876a32a397b","pageurl":"testtingstore.myshopify.com\/collections","u":"f6c5d5a39b6f","p":"collections"};
 //]]>
 </script><script src="https://cdn.shopify.com/s/javascripts/shopify_stats.js?v=6" type="text/javascript" async="async"></script>
 <meta id="shopify-digital-wallet" data-iframe-url="/18343965/digital_wallets/dialog" />
@@ -72,7 +72,7 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
       window.ShopifyAnalytics = window.ShopifyAnalytics || {};
       window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
       window.ShopifyAnalytics.meta.currency = 'BGN';
-      var meta = {"page":{"pageType":"collection"}};
+      var meta = {"page":{"pageType":"collections"}};
       for (var attr in meta) {
         window.ShopifyAnalytics.meta[attr] = meta[attr];
       }
@@ -160,15 +160,10 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
             
         window.ShopifyAnalytics.lib.page(
           null,
-          {"pageType":"collection"}
+          {"pageType":"collections"}
         );
       
             
-        window.ShopifyAnalytics.lib.track(
-          "Viewed Product Category",
-          {"category":"Collection: all","nonInteraction":true}
-        );
-      
           });
 
           
@@ -241,7 +236,6 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
 <style type="text/css">html {  padding-top:40px; } body { position:relative;} </style>
 
 
-
 <script type="text/javascript">
 //<![CDATA[
       window.ShopifyExperiments = window.ShopifyExperiments || {};
@@ -256,7 +250,7 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
   
 </head>
 
-<body id="products" class="template-collection">
+<body id="collections" class="template-list-collections">
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">Skip to content</a>
 
@@ -350,7 +344,7 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
         
           
           
-            <li class="site-nav__element ">
+            <li class="site-nav__element site-nav--active">
               <a href="/collections" class="site-nav__link">Catalog</a>
             </li>
           
@@ -440,271 +434,53 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
     <span class="breadcrumb-nav__separator" aria-hidden="true">›</span>
   </span>
   
-    
-      Products
-    
+    Collections
   
 </nav>
 
         
-        <!-- /templates/collection.liquid -->
+        <!-- /templates/list-collections.liquid -->
 
 
-<div id="shopify-section-collection-template" class="shopify-section"><!-- /templates/collection.liquid -->
 
 
-<div data-section-id="collection-template" data-section-type="collection-template" data-sort-enabled="true" data-tags-enabled="false">
-  <header class="grid">
-    <h1 class="grid__item small--text-center medium-up--one-third">Products</h1>
 
-    
-      <div class="collection-sorting grid__item medium-up--two-thirds medium-up--text-right small--text-center">
-        
-        
-          <div class="collection-sorting__dropdown">
-            <label for="SortBy" class="label--hidden">Sort by</label>
-            <select name="SortBy" id="SortBy" data-value="title-ascending">
-              <option value="manual">Featured</option>
-              <option value="best-selling">Best Selling</option>
-              <option value="title-ascending">Alphabetically, A-Z</option>
-              <option value="title-descending">Alphabetically, Z-A</option>
-              <option value="price-ascending">Price, low to high</option>
-              <option value="price-descending">Price, high to low</option>
-              <option value="created-descending">Date, new to old</option>
-              <option value="created-ascending">Date, old to new</option>
-            </select>
-          </div>
-        
-      </div>
-    
 
-    
-  </header>
 
-  <div class="grid grid--uniform" role="list">
 
+
+
+<h1>Collections</h1>
+
+<div class="grid grid--uniform" role="list">
+  
     
       
-      
+        
 
 
 
 
-
-
-
-
-
-
-
-<div class="product grid__item medium-up--one-third small--one-half slide-up-animation animated" role="listitem">
-  <a href="/products/retro-sunglasses" class="product__image" title="&quot;Retro&quot; Sunglasses">
-    <img src="//cdn.shopify.com/s/files/1/1834/3965/products/sini_grande.jpg?v=1489071290" alt="&quot;Retro&quot; Sunglasses">
+<div class="collection grid__item medium-up--one-third small--one-half slide-up-animation animated" role="listitem">
+  <a href="/collections/other-type-of-glasses" class="collection__image" title="Browse our Other type of glasses collection" >
+    
+      <img src="//cdn.shopify.com/s/files/1/1834/3965/products/black_fonex_d1423867-d6fa-4b3d-b156-1d8e34edf16f_large.jpg?v=1489073661" alt="Other type of glasses">
+    
   </a>
 
-  <div class="product__title text-center">
-    <a href="/products/retro-sunglasses">"Retro" Sunglasses</a>
-  </div>
-
-  
-
-  <div class="product__prices text-center">
-    
-
-      <span class="product__price--on-sale">
-        
-          <strong class="visually-hidden">Sale price</strong>
-          9.00 лв
-        
-      </span>
-
-    
-
-    
-      <span class="visually-hidden">Regular price</span>
-      <s>12.00 лв</s>
-    
-
-    
-      <span class="badge badge--sale"><span>Sale</span></span>
-    
-
-    
-
-    
-
+  <div class="collection__title text-center">
+    <a href="/collections/other-type-of-glasses" title="Browse our Other type of glasses collection" >Other type of glasses</a>
   </div>
 </div>
 
+      
     
       
-      
-
-
-
-
-
-
-
-
-
-
-
-<div class="product grid__item medium-up--one-third small--one-half slide-up-animation animated" role="listitem">
-  <a href="/products/other-type-of-glasses" class="product__image" title="Other type of glasses">
-    <img src="//cdn.shopify.com/s/files/1/1834/3965/products/black_fonex_d1423867-d6fa-4b3d-b156-1d8e34edf16f_grande.jpg?v=1489073661" alt="Other type of glasses">
-  </a>
-
-  <div class="product__title text-center">
-    <a href="/products/other-type-of-glasses">Other type of glasses</a>
-  </div>
-
+    
   
 
-  <div class="product__prices text-center">
-    
-
-      <span class="product__price--on-sale">
-        
-          <strong class="visually-hidden">Sale price</strong>
-          12.00 лв
-        
-      </span>
-
-    
-
-    
-      <span class="visually-hidden">Regular price</span>
-      <s>15.00 лв</s>
-    
-
-    
-      <span class="badge badge--sale"><span>Sale</span></span>
-    
-
-    
-
-    
-
-  </div>
-</div>
-
-    
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-<div class="product grid__item medium-up--one-third small--one-half slide-up-animation animated" role="listitem">
-  <a href="/products/sunglasses" class="product__image" title="Sunglasses">
-    <img src="//cdn.shopify.com/s/files/1/1834/3965/products/black_fonex_grande.jpg?v=1489068365" alt="Sunglasses">
-  </a>
-
-  <div class="product__title text-center">
-    <a href="/products/sunglasses">Sunglasses</a>
-  </div>
-
   
-
-  <div class="product__prices text-center">
-    
-
-      <span class="product__price">
-        
-          <span class="visually-hidden">Regular price</span>
-          12.00 лв
-        
-      </span>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </div>
 </div>
-
-    
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-<div class="product grid__item medium-up--one-third small--one-half slide-up-animation animated" role="listitem">
-  <a href="/products/sunglasses-fonex" class="product__image" title="Sunglasses Fonex">
-    <img src="//cdn.shopify.com/s/files/1/1834/3965/products/cherni_grande.jpg?v=1489069448" alt="Sunglasses Fonex">
-  </a>
-
-  <div class="product__title text-center">
-    <a href="/products/sunglasses-fonex">Sunglasses Fonex</a>
-  </div>
-
-  
-
-  <div class="product__prices text-center">
-    
-
-      <span class="product__price">
-        
-          <span class="visually-hidden">Regular price</span>
-          10.00 лв
-        
-      </span>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </div>
-</div>
-
-    
-  </div>
-
-  
- </div>
-
-
-
-
-</div>
-
-<script>
-  window.theme = window.theme || {};
-  // Override default values of shop.strings for each template.
-  // Alternate product templates can change values of
-  //
-  theme.collectionStrings = {
-    sortBy: 'title-ascending'
-  }
-</script>
 
       </main>
 
@@ -767,4 +543,4 @@ var __st={"a":18343965,"offset":7200,"reqid":"f41a17ee-837e-4254-83f3-7fb0842a2a
   <script src="//cdn.shopify.com/s/files/1/1834/3965/t/3/assets/theme.js?4739159352982716937" type="text/javascript"></script>
 </body>
 </html>
-<iframe id="admin_bar_iframe" src="https://testtingstore.myshopify.com/admin/bar?u=https://testtingstore.myshopify.com/collections/all" style="height: 40px; position:fixed; top:0; left:0; right:0; z-index:2147483647;background:#191919" width="100%" frameborder="0" allowTransparency="true">{}</iframe>
+<iframe id="admin_bar_iframe" src="https://testtingstore.myshopify.com/admin/bar?u=https://testtingstore.myshopify.com/collections" style="height: 40px; position:fixed; top:0; left:0; right:0; z-index:2147483647;background:#191919" width="100%" frameborder="0" allowTransparency="true">{}</iframe>
